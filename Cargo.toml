@@ -1,0 +1,17 @@
+[package]
+name = "hotstuff"
+version = "0.0.0"
+authors = ["Eason Gao <kaoimin@qq.com>"]
+edition = "2018"
+license = "MIT"
+include = ["Cargo.toml", "src/*", "README.md", "LICENSE", "rust-toolchain"]
+readme = "README.md"
+keywords = ["consensus", "bft", "distributed-systems"]
+categories = ["Algorithms", "Database interfaces"]
+repository = "https://github.com/cryptape/hotstuff"
+description = """
+HotStuff consensus procotol.
+"""
+
+[dependencies]
+log= "0.4"
