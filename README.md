@@ -1,0 +1,2 @@
+# hotstuff
+HotStuff consensus protocol.
