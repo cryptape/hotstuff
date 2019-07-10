@@ -146,20 +146,6 @@ use_try_shorthand = true
 # fn add_one(x: i32) -> i32 {
 #     x + 1
 # }
-format_doc_comments = true
-# Break comments to fit on the line
-#
-# Default value: false
-# Possible values: true, false
-# Stable: No (tracking issue: #3347)
-# false (default):
-# // Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-# true:
-# // Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-# // sed do eiusmod tempor incididunt ut labore et dolore
-# // magna aliqua. Ut enim ad minim veniam, quis nostrud
-# // exercitation ullamco laboris nisi ut aliquip ex ea
-# // commodo consequat.
 wrap_comments = true
 # When structs, slices, arrays, and block/array-like macros are used as the last argument in an expression list, allow them to overflow (like blocks/closures) instead of being indented on a new line.
 #
